@@ -10,7 +10,7 @@ function App() {
   const handleTaskAdded = (newTask) => {
     setTasks((prevTasks) => [...prevTasks, newTask]);
   };
-  
+
   return (
     <Router>
       <div>
@@ -18,3 +18,10 @@ function App() {
         <Switch>
           <Route path="/" exact render={() => <TaskList tasks={tasks} />} />
           <Route path="/add" render={() => <AddTask onTaskAdded={handleTaskAdded} />} />
+          </Switch>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
