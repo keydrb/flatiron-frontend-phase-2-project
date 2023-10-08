@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './App.css';
 import NavBar from './components/NavBar';
 import TaskList from './components/TaskList';
 import AddTask from './components/AddTask';
