@@ -7,3 +7,9 @@ const NavBar = () => {
         <ul>
           <li><Link to="/">Task List</Link></li>
           <li><Link to="/add">Add Task</Link></li>
+          </ul>
+    </nav>
+  );
+};
+
+export default NavBar;
