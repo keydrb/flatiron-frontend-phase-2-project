@@ -1,6 +1,6 @@
-// src/components/AddTask.js
 import React, { useState } from 'react';
 import axios from 'axios';
+import './App.css'
 
 const AddTask = ({ onTaskAdded }) => {
   const [title, setTitle] = useState('');
